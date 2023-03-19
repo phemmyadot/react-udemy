@@ -13,7 +13,7 @@ function PhotoPage() {
   const photosDiv = photos.map((c, i) => <PhotoCard key={c.id} image={c.urls.small} alt={c.alt_description} />)
   return (
     <div className="App">
-
+ <h1>Photo App</h1>
       <Search onSubmit={onSubmitForm} />
       <div className="list">
         {photosDiv}

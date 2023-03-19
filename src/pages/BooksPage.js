@@ -14,7 +14,7 @@ function BooksPage() {
     const renderedBooks = books.map((e, i) => <BookCard key={e.id} book={e} />)
     return (
         <div className="BooksPage">
-            Books App
+           <h1>Books App</h1>
             <BookCreate />
             <div className="list">
                 {renderedBooks}

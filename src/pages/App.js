@@ -3,6 +3,7 @@ import './App.css';
 import BooksPage from './BooksPage';
 import PhotoPage from './PhotoPage';
 import { Provider } from "../components/bookApp/bookContext";
+import PlaylistApp from './PlaylistPage';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   const apps = [
     { name: "Photo Page", app: <PhotoPage/> },
     { name: "Books Page", app: <Provider><BooksPage /></Provider> },
+    { name: "Song Page", app: <PlaylistApp /> },
   ]
 
 
