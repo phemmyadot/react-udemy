@@ -1,11 +1,12 @@
+import { nanoid } from "@reduxjs/toolkit";
 import { useDispatch, useSelector } from "react-redux";
-import { addMovie, removeMovie } from "../../store";
+import { addMovie, removeMovie } from "../../store/playlistStore";
 
 function MovieList() {
     const dispatch = useDispatch();
 
     const handleAddMovie = () => {
-        dispatch(addMovie("some Movie " + moviesList.length));
+        dispatch(addMovie("some Movie " + nanoid()));
     }
 
     const handleRemoveMovie = (i) => {

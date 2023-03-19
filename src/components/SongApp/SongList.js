@@ -1,11 +1,12 @@
+import { nanoid } from "@reduxjs/toolkit";
 import { useDispatch, useSelector } from "react-redux";
-import { addSong, removeSong } from "../../store";
+import { addSong, removeSong } from "../../store/playlistStore";
 
 function SongList() {
     const dispatch = useDispatch();
 
     const handleAddSong = () => {
-        dispatch(addSong("some song " + songsList.length));
+        dispatch(addSong("some song " + nanoid()));
     }
 
     const handleRemoveSong = (i) => {

@@ -4,14 +4,16 @@ import BooksPage from './BooksPage';
 import PhotoPage from './PhotoPage';
 import { Provider } from "../components/bookApp/bookContext";
 import PlaylistApp from './PlaylistPage';
+import CarsApp from './CarsPage';
 
 
 function App() {
 
   const apps = [
-    { name: "Photo Page", app: <PhotoPage/> },
-    { name: "Books Page", app: <Provider><BooksPage /></Provider> },
-    { name: "Song Page", app: <PlaylistApp /> },
+    { name: "Photo App", app: <PhotoPage/> },
+    { name: "Books App", app: <Provider><BooksPage /></Provider> },
+    { name: "Playlist App", app: <PlaylistApp /> },
+    { name: "Cars App", app: <CarsApp /> },
   ]
 
 
