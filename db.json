@@ -8,5 +8,80 @@
       "name": "call of duty",
       "id": 5
     }
+  ],
+  "users": [
+    {
+      "name": "Luis Witting",
+      "id": 2
+    },
+    {
+      "name": "Mamie Reichert",
+      "id": 4
+    },
+    {
+      "name": "Dr. Enrique Keeling",
+      "id": 5
+    },
+    {
+      "name": "Joshua Anderson",
+      "id": 6
+    },
+    {
+      "name": "Janie Runolfsson",
+      "id": 7
+    },
+    {
+      "name": "Doreen Nienow",
+      "id": 8
+    }
+  ],
+  "albums": [
+    {
+      "title": "Practical Concrete Soap",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "title": "Generic Plastic Sausages",
+      "userId": 4,
+      "id": 5
+    },
+    {
+      "title": "Refined Granite Hat",
+      "userId": 5,
+      "id": 6
+    },
+    {
+      "title": "Ergonomic Bronze Shoes",
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "title": "Practical Granite Pants",
+      "userId": 6,
+      "id": 9
+    },
+    {
+      "title": "Awesome Bronze Tuna",
+      "userId": 8,
+      "id": 10
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=43198",
+      "albumId": 3,
+      "id": 1
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=39423",
+      "albumId": 7,
+      "id": 2
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=96056",
+      "albumId": 3,
+      "id": 3
+    }
   ]
 }

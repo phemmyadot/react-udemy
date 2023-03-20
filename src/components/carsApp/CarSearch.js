@@ -9,7 +9,7 @@ function CarSearch() {
     }
     return (
         <form >
-            <input style={{ border: "1px solid green", padding: "10px" }} value={term} onChange={handleChangeSearchTerm} />
+            <input className="border border-green-800 rounded px-3 py-1 mr-2"  placeholder="Enter car name" value={term} onChange={handleChangeSearchTerm} />
         </form>
     );
 

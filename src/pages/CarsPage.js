@@ -14,11 +14,14 @@ function CarsApp() {
 const CarsPage = () => {
     return (
         <div className="PlaylistApp">
-            <h1>Cars App</h1>
+            <div className="flex justify-between my-10">
+                <span></span>
+                <h1>Cars App</h1>
+                <CarSearch />
+            </div>
             <CarForm />
             <hr />
             <CarList />
-            <CarSearch />
             <CarValue />
 
             <div style={{ display: "flex", justifyContent: "center" }}>

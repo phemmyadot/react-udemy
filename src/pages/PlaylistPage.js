@@ -15,7 +15,7 @@ const PlayListPage = () => {
     const dispatch = useDispatch();
     const handleReset = () => dispatch(reset());
     return (<div className="PlaylistApp">
-        <h1>Playlist App</h1>
+        <h1 className="mb-10">Playlist App</h1>
         <button onClick={() => handleReset()} style={{ background: "green", color: "white", cursor: "pointer", border: "none", padding: "10px" }}>Reset</button>
 
         <div style={{ display: "flex", justifyContent: "center" }}>

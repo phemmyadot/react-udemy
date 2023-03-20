@@ -5,6 +5,7 @@ import PhotoPage from './PhotoPage';
 import { Provider } from "../components/bookApp/bookContext";
 import PlaylistApp from './PlaylistPage';
 import CarsApp from './CarsPage';
+import UserAlbumsApp from './UserAlbumsApp';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     { name: "Books App", app: <Provider><BooksPage /></Provider> },
     { name: "Playlist App", app: <PlaylistApp /> },
     { name: "Cars App", app: <CarsApp /> },
+    { name: "User Albums App", app: <UserAlbumsApp /> },
   ]
 
 
